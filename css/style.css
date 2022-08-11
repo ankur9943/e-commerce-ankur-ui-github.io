@@ -185,9 +185,6 @@ a {
 	box-shadow: 0 4px 6px 0 rgb(12 0 46 / 8%);
 	
 }
-
-
-
 @keyframes smoothScroll {
 	0% {
 		transform: translateY(-40px);
@@ -195,6 +192,11 @@ a {
 	100% {
 		transform: translateY(0px);
 	}
+}
+
+.carousel-item img{
+	min-height: 197px;
+	object-fit: cover;
 }
 /*===============navbar-fixed==End==============*/
 		/*===============mobile=menu=========start========*/
